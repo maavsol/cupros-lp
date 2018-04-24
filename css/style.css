@@ -94,14 +94,6 @@ p {
     color: white;
 }
 
-/* section {
-    padding: 70px 0;
-} */
-
-/* aside {
-    padding: 50px 0;
-} */
-
 footer {
     padding: 15px;
 }
@@ -545,4 +537,18 @@ img::-moz-selection {
     background-color: #FA8D62;
 }
 
+@media(max-width:600px) {
+    .feature {
+        margin: 20px auto 0;
+    }
 
+    .title-abs {
+        width: 80%;
+        height: 85%;
+        position: absolute;
+        padding: 34%;}
+
+    .row{
+        padding: 20px;
+    }
+}
