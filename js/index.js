@@ -76,7 +76,7 @@ function draw() {
   for (var i = 0, x = stars.length; i < x; i++) {
     var s = stars[i];
 
-    ctx.fillStyle = "grey";
+    ctx.fillStyle = "black";
     ctx.beginPath();
     ctx.arc(s.x, s.y, s.radius, 0, 2 * Math.PI);
     ctx.fill();
