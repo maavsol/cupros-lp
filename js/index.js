@@ -76,11 +76,11 @@ function draw() {
   for (var i = 0, x = stars.length; i < x; i++) {
     var s = stars[i];
 
-    ctx.fillStyle = "black";
+    ctx.fillStyle = "grey";
     ctx.beginPath();
     ctx.arc(s.x, s.y, s.radius, 0, 2 * Math.PI);
     ctx.fill();
-    ctx.fillStyle = "black";
+    ctx.fillStyle = "grey";
     ctx.stroke();
   }
 
