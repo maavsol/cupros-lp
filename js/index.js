@@ -40,8 +40,6 @@
 
 var canvas = document.getElementById("canvas"),
   ctx = canvas.getContext("2d");
-ctx.font = "30px Arial";
-ctx.fillText("Hello", 10, 50);
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
